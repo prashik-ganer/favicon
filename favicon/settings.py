@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'j1nwz_7a%28eukfz85q#9q^jy2ewqi)@v5tyn(t36nk$4x^g!i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['favicon-icon.herokuapp.com','127.0.0.1']
 
 
 # Application definition
